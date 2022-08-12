@@ -1,0 +1,104 @@
+body {
+    background-color: black;
+}
+
+header.logo {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+header.logo img {
+    margin: 25px;
+}
+
+
+main.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    max-width: 1200px;
+}
+
+
+main.container h1.teh1 {
+    padding: 10px 10px;
+    margin: 10px 10px;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+
+main ul.agl {
+    width: 700px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+}
+
+
+main ul.agl li.card {
+    background-color: rgba(75, 72, 72, 0.644);
+    box-sizing: border-box;
+    height: 160px;
+    width: 160px;
+    border: solid 1px transparent;
+}
+
+main ul.agl li.card:hover {
+    border: solid 1px white;
+
+
+}
+
+main ul.agl li.card a {
+    box-sizing: border-box;
+    width: 160px;
+    height: 160px;
+}
+
+
+main ul.agl li.card a img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+
+main ul.agl li.card p {
+    color: rgba(255, 255, 255, 0.61);
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+ul.agl li.card p:hover {
+    color: white;
+
+}
+
+main.container div.ger input {
+    border-radius: 15px;
+    height: 50px;
+    width: 350px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    font-size: 20px;
+    transition-duration: 0.5s;
+
+}
+
+main.container div.ger input:hover {
+    transition-duration: 0.5s;
+    color: black;
+    background-color: white;
+}
