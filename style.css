@@ -47,6 +47,7 @@ main ul.agl {
 main ul.agl li.card {
     background-color: rgba(75, 72, 72, 0.644);
     box-sizing: border-box;
+    margin: 1px;
     height: 160px;
     width: 160px;
     border: solid 1px transparent;
